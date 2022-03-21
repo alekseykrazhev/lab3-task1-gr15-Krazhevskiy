@@ -1,10 +1,10 @@
 # Overview
 
 It is public template of assignment `"labrabota 3"` for FPMI students
-
+Created by Krazhevskiy Aleksey, gr. 15
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+Please, edit README and add some details
 
 # Building
 
