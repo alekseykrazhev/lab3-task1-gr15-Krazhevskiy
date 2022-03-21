@@ -1,4 +1,3 @@
-/* main.c */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -23,18 +22,12 @@ int main (void)
 	int class1[2][25];
   int class2[2][25];
   for (int i = 0; i < 25; ++i) {
-    /*printf("Enter height and mass of first class");
-    scanf("%i", &class1[0][i]);
-    scanf("%i", &class1[1][i]);*/
     class1[0][i] = rand() % 100;
     class1[1][i] = rand() % 150;
   }
   for (int i = 0; i < 25; ++i) {
-    /*printf("Enter height and mass of second class");
-    scanf("%i", &class2[0][i]);
-    scanf("%i", &class2[1][i]);*/
-    class2[0][i] = rand() % 500;
-    class2[1][i] = rand() % 150;
+    class2[0][i] = rand() % 100;
+    class2[1][i] = rand() % 500;
   }
   for (int i = 0; i < 25; ++i) {
     for (int j = 0; j < 2; ++j) {
@@ -53,6 +46,7 @@ int main (void)
   which_class(class2);
   
   printf("%c", '\n');
+  
   if (class1[1][21] > class2[1][21]) {
     printf("First");
   } else {
